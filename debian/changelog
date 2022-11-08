@@ -1,3 +1,15 @@
+pt-os-core (5.5.1-2) bullseye; urgency=medium
+
+  * Reduce size of `pt-os-lite` install (#88)
+  * pt-os-lite installs pt-os-onboarding (#90)
+  * Build for arm64
+  * Point to fork Debian package building image
+  * Point to forked Debian package building action
+  * Revert "Point to forked Debian package building action"
+  * Point to forked Debian package building action
+
+ -- pi-top <deb-maintainers@pi-top.com>  Tue, 08 Nov 2022 12:55:27 +0000
+
 pt-os-core (5.5.1-1) bullseye; urgency=medium
 
   * Update dependencies to use SDK subpackages (#86)
